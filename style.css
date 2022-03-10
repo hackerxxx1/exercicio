@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient( to bottom right, Blue, white);
+}
+
 .button {
     border-radius: 15px;
     color: white;
@@ -8,25 +12,45 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
-  .button1:hover {
-  background-color: blueviolet;
-  color: white;
-  }
-  .button1 {background-color: #4CAF50;} /* Green */
-  .button2 {background-color: #008CBA;} /* Blue */
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+.button1:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.button1 {
+    background-color: #4CAF50;
+}
+
+
+/* Green */
+
+.button2 {
+    background-color: #008CBA;
+}
+
+
+/* Blue */
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+    background-color: #dddddd;
 }
