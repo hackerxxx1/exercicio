@@ -3,7 +3,7 @@ function cliquei() {
 }
 
 function clicar() {
-    document.getElementById("botaot").click();
+    alert('voce foi trolado meu amigao')
 }
 
 function check() {
