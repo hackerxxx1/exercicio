@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>formulario</title>
+</head>
+<body>
+    <div style="border-radius: 10px;background-color:royalblue;margin: 5px; padding: 5px; float: left; width: fit-content;">
+                <form action="index.html" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite um nome"/>
+                <br>
+                <label for="telefone">Telefone:</label>
+                <input type="number" name="telefone" id="telefone" placeholder="so numeros"/>
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite o email @blablabla.com"/>
+                <br>
+                <label for="senha">Senha:</label>
+                <input type="password" name="pass" id="senha" placeholder="Digite a senha"/>
+                <br>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="Masculino" id="sexo" value="sexo1">Masculino</input>
+                <input type="radio" name="Feminino" id="sexo" value="sexo2">Feminino</input>
+                <br>
+                <label for="uf">UF:</label>
+                <select name="uf" id="uf">
+                    <option value="">Selecione</option>
+                    <option value="1">bla bla bla 1</option>
+                    <option value="1">bla bla bla 2</option>
+                    <option value="1">bla bla bla 3</option>
+                </select>
+                <label for="uf">Cidade:</label>
+                <select name="uf" id="uf" >
+                    <option value="">Selecione</option>
+                    <option value="1">bla bla bla 1</option>
+                    <option value="1">bla bla bla 2</option>
+                    <option value="1">bla bla bla 3</option>
+                </select>
+                <br>
+                <fieldset>
+                    <legend>
+                        hobbies
+                    </legend>
+                    <input type="checkbox" name="check1" id="musica" value="musica">Música</input>
+                    <br>
+                    <input type="checkbox" name="check2" id="futebol" value="futebol">Futebol</input>
+                    <br>
+                    <input type="checkbox" name="check3" id="teatro" value="teatro">Teatro</input>
+                    <br>
+                    <input type="checkbox" name="check4" id="jogos" value="jogos">Jogos</input>
+                    <br>
+                    <input type="checkbox" name="check5" id="cozinhar" value="cozinhar">Cozinhar</input>
+                    <br>
+                </fieldset>
+                <br>
+                <label for="bla">Observação:</label>
+                <textarea name="bla" id="bla" cols="30" rows="10" placeholder="escreva sua observação aqui"></textarea>
+                <br>
+                <button class="button button1" type="submit" onclick="cliquei()" >Enviar</button>
+                <button class="button button1" type="reset" onclick="cliquei()">Limpar</button>
+                <a href="index.html"><button class="button button1" type="button" onclick="cliquei()" >Voltar</button></a>
+            </form>
+            </div>
+</body>
+</html>
