@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient( to bottom right, Blue, white);
+    padding: 15px;
+    background-image: url('123.jpg');
 }
 
 .button {
@@ -12,6 +13,36 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.teste {
+    background: rgba(0, 0, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px inset rgba(55, 0, 252, 0.384);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.teste2 {
+    background: rgba(0, 0, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px inset rgba(55, 0, 252, 0.384);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.teste1 {
+    background: rgba(0, 0, 255, 0.527);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 5px inset black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .button1:hover {
@@ -35,14 +66,14 @@ body {
 
 table {
     font-family: arial, sans-serif;
-    width: 100%;
+    width: fit-content;
+    border-radius: 10px;
 }
 
 table,
 th,
 td {
-    border: 5px solid black;
-    border-radius: 15px;
+    border: 2px solid black;
 }
 
 td,
@@ -52,5 +83,5 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #4f99fa;
 }
